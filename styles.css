@@ -1,0 +1,32 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Extend Variants */
+@variants  group-hover {
+    .block {
+      display: block;
+    }
+  }
+
+  @font-face {
+    font-family: ProximaNova;
+      src: url('../fonts/ProximaNovaRegular.otf');
+  }
+  
+  @font-face {
+    font-family: ProximaNova;
+    src: url('../fonts/ProximaNovaBold.otf');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: SourceSansPro;
+    src: url('../fonts/SourceSansPro-Bold.ttf');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: SourceSansPro;
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+  }
